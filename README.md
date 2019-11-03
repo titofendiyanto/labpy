@@ -39,9 +39,19 @@
 
 * Sehingga terbentuk satu direktori baru dibawahnya, selanjutnyamasuk kedalam direktori tersebut dengan perintah cd (changedirectory)
 * direktory aktif menjadi: ``d:\labs_pemrograman1\latihan1``
+# Membuat Reposiory Local
+* Jalankan perintah git init, untuk membuat repository local.
+* Repository baru berhasil di inisialisasi, dengan terbentuknya satudirektori hidden dengan nama .git
+* Pada direktori tersebut, semua perubahan pada working directory akan disimpan.
+
+  ![git init](https://user-images.githubusercontent.com/57053160/68082998-2b620f00-fe56-11e9-8289-51ba1737d7a3.png)
+
 # Menambahkan File baru pada repository
 * Untuk membuat file dapat menggunakan text editor, lalu menyimpafilenya pada direktori aktif (repository)
 * disini kita akan coba buat satu file bernama README.md (text file) ``$ echo “#Latihan 1” >> README.md``
+  
+  ![echo](https://user-images.githubusercontent.com/57053160/68083012-5e0c0780-fe56-11e9-9867-e1fbd39fc450.png)
+
 * File ``README.md`` berhasil dibuat.
 # Menambahkan File baru pada repository
 * Untuk menambahkan file yang baru saja dibuat tersebut gunakanperintah git add.
