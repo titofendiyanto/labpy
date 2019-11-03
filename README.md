@@ -56,20 +56,40 @@
 # Menambahkan File baru pada repository
 * Untuk menambahkan file yang baru saja dibuat tersebut gunakanperintah git add.
 * File README.md berhasil ditambahkan. ``$ git add README.md``
+  
+  ![git add](https://user-images.githubusercontent.com/57053160/68083073-12a62900-fe57-11e9-87f7-5ebe1e4b74e7.png)
+
 # Commit (Menyimpan perubahan ke database)
 * Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah ``$ git commit -m``  ``“komentar commit”``
+
+  ![git commit](https://user-images.githubusercontent.com/57053160/68083091-54cf6a80-fe57-11e9-9f07-655faa702b2b.png)
+  
 * Perubahan berhasil disimpan
 # Membuat repository server
 * Server reopsitory yang akan kita gunakan adalah [github.com](https://gitthub.com)
 * Anda harus membuat akun terlebih dahulu.
 * Pada laman github, klik tombol start a project, atau Dari menu (icon +) klik New Repositor
+
+  ![repository server](https://user-images.githubusercontent.com/57053160/68083101-821c1880-fe57-11e9-8370-3883e32ed354.png)
+
 # Membuat repository server
 * Isi nama repositorynya, **misal: labpy1.**
 * lalu klik tombol **Create repository**
+
+ ![new repository](https://user-images.githubusercontent.com/57053160/68083116-a5df5e80-fe57-11e9-8532-58b464ad5ba0.png)
+ 
 # Menambahkan Remote Repository
 * Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga   dapat diakses oleh banyak user.
 * Untuk menambahkan remote repository server, gunakan perintah ``git remote add origin [url]``
+
+  ![git remote](https://user-images.githubusercontent.com/57053160/68083140-f8b91600-fe57-11e9-880c-1244bedd9b0a.png)
+  
 # Melihat hasilnya pada server repository
 * Buka laman ``github.com``,arahkan pada repositori- nya.
 * Maka perubahan akan terlihat pada laman tersebut.
+![tito](https://user-images.githubusercontent.com/57053160/68083190-ccea6000-fe58-11e9-8ab2-338338cf060f.png)
+# Clone Repository
+* Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
+* Untuk melakukan cloning, gunakan perintah git clone [url]  
+![clone](https://user-images.githubusercontent.com/57053160/68083242-0b801a80-fe59-11e9-8520-95bfd56daa3d.png)
 **selesai**
